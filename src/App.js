@@ -1,5 +1,5 @@
-import "./styles/general, header and sidebar.css";
-import "./styles/body.css";
+import "./dashboard-styles/general, header and sidebar.css";
+import "./dashboard-styles/body.css";
 import profilePicture from "./Expense Tracker Assets/profile picture.jpg";
 import dropdownIcon from "./Expense Tracker Assets/icons/down-chevron.png";
 import notificationIcon from "./Expense Tracker Assets/icons/notification.png";
