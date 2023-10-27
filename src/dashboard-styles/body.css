@@ -1,0 +1,416 @@
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.section-1 {
+  gap: 50px;
+}
+
+.balance-income-expense {
+  width: 100%;
+  /* background-color: lightblue; */
+  background-color: white;
+  box-shadow: 15px 15px 30px #d8d8d8, -15px -15px 30px #ffffff;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.balance-income-expense-icon {
+  border-radius: 10px;
+  border: 1px solid #f54291;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border 0.2s;
+}
+
+.balance-income-expense-icon:hover {
+  border: 1px solid #4cd3c2;
+}
+
+.balance-income-expense-icon img {
+  width: 35px;
+}
+
+.content-and-money {
+  /* background-color: lightpink; */
+  background-color: white;
+  flex: 1;
+  height: 92px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content {
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+
+.money {
+  font-size: 25px;
+  font-weight: 800;
+  color: black;
+}
+
+.section-2 {
+  gap: 20px;
+}
+
+.section-2-group,
+.section-2-group-division {
+  height: 950px;
+  border-radius: 15px;
+  flex: 1;
+}
+
+.section-2-group {
+  /* background-color: lightblue; */
+  background-color: white;
+  border-radius: 15px;
+  height: 930px;
+}
+
+.section-2-group-division {
+  /* background-color: lightblue; */
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.group-division {
+  /* background-color: lightpink; */
+  background-color: white;
+  flex: 1;
+  border-radius: 15px;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+
+.frequency-dropdown {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  padding: 0 10px;
+  padding-right: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../Expense\ Tracker\ Assets/icons/down-chevron.png")
+    no-repeat right center;
+  background-size: 25px;
+  border: 1px solid #f54291;
+  border-radius: 8px;
+  transition: border 0.2s;
+  cursor: pointer;
+}
+
+.frequency-dropdown:focus {
+  outline: 1px solid #f54291;
+}
+
+.content-body {
+  flex: 1;
+  height: 100%;
+  background-color: white;
+  /* background-color: lightblue; */
+  border-radius: 10px;
+  display: flex;
+}
+
+.content-header img {
+  width: 35px;
+  /* height: 35px; */
+}
+
+.account-overview {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.account-overview-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-overview-items p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.account-overview-items p span {
+  font-weight: 800;
+}
+
+.section-2-group {
+  /* background-color: lightblue; */
+  background-color: white;
+  flex: 1;
+  border-radius: 15px;
+  padding: 20px;
+  padding-bottom: 0;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payment-mode-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.add-payment-mode-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 110px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #f54291;
+  background-color: white;
+  transition: border 0.2s;
+  cursor: pointer;
+}
+
+.add-payment-mode-button:hover {
+  border: 1px solid #4cd3c2;
+}
+
+.add-payment-mode-button img {
+  width: 15px;
+}
+
+.add-payment-mode-button p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.current-payment-modes-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  gap: 20px;
+}
+
+.payment-mode {
+  border: 2px solid #4cd3c2;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 400px;
+}
+
+.payment-mode-type-and-balance {
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-right {
+  display: flex;
+  justify-content: end;
+}
+
+.payment-mode-buttons {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.payment-mode-buttons button {
+  width: 20px;
+  height: 25px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-mode-buttons button img:hover {
+  width: 25px;
+}
+
+.payment-mode-buttons button img:active {
+  width: 20px;
+}
+
+.payment-mode-buttons button img {
+  width: 20px;
+  transition: width 0.15s;
+}
+
+.expenditure-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-sub-header {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  /* background-color: lightpink; */
+  align-items: center;
+}
+
+.frequency-dropdown-2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 0 10px;
+  /* padding-right: 30px; */
+  /* -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../Expense\ Tracker\ Assets/icons/down-chevron.png")
+    no-repeat right center;
+  background-size: 25px; */
+  background: #4cd3c2;
+  border: none;
+  border-radius: 8px;
+  transition: border 0.2s;
+  cursor: pointer;
+  height: 30px;
+}
+
+.frequency-dropdown-2:focus {
+  outline: 1px solid #4cd3c2;
+}
+
+.add-expenditure-btn {
+  width: 30px;
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.add-expenditure-btn img {
+  width: 25px;
+  transition: width 0.15s;
+}
+
+.add-expenditure-btn img:hover {
+  width: 30px;
+}
+
+.add-expenditure-btn img:active {
+  width: 25px;
+}
+
+.expenditure-graph-container {
+  flex: 1;
+  height: 512px;
+  background-color: white;
+  /* background-color: lightblue; */
+  border-radius: 10px;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+/* SECTION 3 */
+.section-3 {
+  background-color: #f9f9f9;
+  gap: 50px;
+}
+
+.investment-savings-tax-containers {
+  /* background-color: lightblue; */
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.investments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.total-investments-and-interest,
+.investments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.investments p,
+.total-investments-and-interest p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.total-investments-and-interest p {
+  font-weight: bold;
+}
+
+.total-investments-and-interest p span {
+  font-weight: 500;
+  color: #4cd3c2;
+  text-decoration: underline;
+}
+
+.tax-deduction-graph-container {
+  flex: 1;
+  /* background-color: lightblue; */
+  background-color: white;
+}
+
+.section-4 {
+  /* background-color: lightpink; */
+  background-color: #f9f9f9;
+  gap: 20px;
+}
+
+.transaction-history-and-budget-container {
+  /* background-color: lightblue; */
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
